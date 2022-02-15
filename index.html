@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fundamentos Web</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="img">
+            <img src="./imgs/codificacao-da-web.png" alt="web" width="64px" class="cabecalho-imagem">
+        </div>
+        <nav class="cabecalho-menu">
+            <a href="#tema1" class="cabecalho-item">Como os computadores se comunicam?</a>
+            <a href="#tema2" class="cabecalho-item">O que é Web?</a>
+            <a href="#tema3" class="cabecalho-item">client-side - Server Side</a>
+            <a href="#tema4" class="cabecalho-item">aplicação Web</a>
+            <a href="#tema5" class="cabecalho-item">Front End</a>
+            <a href="#tema6" class="cabecalho-item">Back End</a>
+            <a href="#tema7" class="cabecalho-item">Folhas de Estilo</a>
+            <a href="#tema7" class="cabecalho-item">Frameworks</a>
+        </nav>
+    </header>
+    <div class="linha"></div>
+    <main class="conteudo">
+        <section class="tema" id="tema1">
+            <h2>Como os computadores se comunicam?</h2>
+            <article>
+                <p>Um protocolo de rede é a linguagem utilizada para que dois computadores consigam se
+                    comunicar.
+                    Para que haja comunicação entre dois nós é necessário que eles estejam na mesma rede e
+                    “falem a
+                    mesma língua”.
+                    Essa iniciativa deu origem ao protocolo <abbr title="Transmission Control Protocol/Internet
+                    Protocol"><strong>TCP/IP</strong></abbr>, estabelecendo os padrões de comunicação através de um
+                    conjunto de protocolos para a
+                    transmissão de dados.</p>
+                <div id="rede-img">
+                    <img src="./imgs/redes.gif" alt="">
+                    <img src="./imgs/redes-computadores.png" alt="">
+                </div>
+                <p>Os computadores são ligados através de uma rede de computadores quebra barreiras geográficas e
+                    possibilita que informações sejam compartilhadas entre pessoas e empresas do mundo inteiro,
+                    disponibilizando informação local ou globalmente, e são úteis para a prestação de diversos
+                    serviços essenciais.</p>
+            </article>
+        </section>
+        <section class="tema" id="tema2">
+            <h2>O que é Web?</h2>
+            <article>
+                <p>Web é uma palavra inglesa que significa teia ou rede. O significado de web ganhou outro
+                    sentido com o aparecimento da internet. A web passou a designar a rede que conecta
+                    computadores por todo mundo, a <strong><abbr title="World Wide Web ">WWW</abbr></strong> Web pode
+                    ser uma teia de aranha ou um
+                    tecido e também se utiliza para designar uma trama ou intriga.</p>
+                <div id="web-img">
+                    <img src="./imgs/navegadores.png" alt="" width="400px">
+                    <img src="./imgs/web.jpg" alt="">
+                </div>
+                <p>A web significa um sistema de informações ligadas através de hipermídia (hiperligações em
+                    forma de texto, vídeo, som e outras animações digitais) que permitem ao usuário acessar uma
+                    infinidade de conteúdos através da internet. Para tal é necessário ligação à internet e um
+                    navegador (browser) onde são visualizados os conteúdos disponíveis. São exemplos de
+                    navegadores: Google Chrome, Safari, Mozilla Firefox, Internet Explorer, Opera, etc.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Client side - Server Side</h2>
+            <article class="tema" id="tema3">
+                <p>As linguagens server-side são linguagens que o <strong>SERVIDOR</strong> entende. Isso quer dizer que
+                    vai
+                    escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a
+                    resposta. As linguagens client-side são linguagens onde apenas o seu <strong>NAVEGADOR</strong> vai
+                    entender.
+                </p>
+                <div id="sides-img">
+                    <img src="./imgs/front-back.jpg" alt="">
+                    <img src="./imgs/meme-front-back.jpeg" alt="">
+                </div>
+                <p>Se criarmos um script em linguagem back-end (PHP, Java, Ruby, etc) que apenas calcula a soma de 2 +
+                    2, será o SERVIDOR (ou back, o server) que calculará este resultado. Se fizermos esse cálculo em
+                    alguma linguagem front-end, como o JavaScript, quem calculará essa conta é o BROWSER do usuário. Por
+                    isso o termo client ou front.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Arquitetura Aplicação Web</h2>
+            <article class="tema" id="tema4">
+                <p>Uma aplicação web é composta por dois atores principais: o cliente e o servidor. O cliente
+                    normalmente, mas não necessariamente, é um navegador como o Internet Explorer ou Firefox. O servidor
+                    é uma aplicação, na forma de um serviço, normalmente hospedado remotamente.</p>
+                <div id="estrutura-web-img">
+                    <img src="./imgs/arquitetura-web.PNG" alt="" width="700px">
+                </div>
+                <p>O servidor aguarda a requisição vinda do navegador, que chega através de uma requisição. Esta
+                    requisição é processada pelo servidor e uma resposta é gerada, normalmente composta por HTML, Java
+                    script, XML e outros elementos. O navegador recebe esta resposta e a interpreta, normalmente
+                    construindo uma página visual ao usuário.
+                </p>
+            </article>
+        </section>
+        <section class="tema" id="tema5">
+            <h2>Linguagens Front-End</h2>
+            <article>
+                <p>O desenvolvimento de <strong>Front-End</strong> é um dos aspectos mais importantes da criação de aplicativos amigáveis
+                    ao
+                    usuário para aplicativos móveis e da web.
+                    Atualmente, existem muitas opções quando se trata de linguagens para desenvolvimento front-end, cada
+                    uma
+                    com suas vantagens e desvantagens.</p>
+                <div id="triade-img">
+                    <img src="./imgs/triade.png.opdownload" alt="">
+                </div>
+            </article>
+            <article>
+                <h3>HTML</h3>
+                <p> O HTML é a base de toda a aplicação, sendo usada para criar a estrutura fundamental do conteúdo de um site e seus principais elementos, como rodapé, cabeçalho, menus, barra lateral etc.</p>
+            </article>
+            <article>
+                <h3>CSS</h3>
+                <p>Esta linguagem é usada para organizar sessões, criar efeitos de transição e definir o design de uma página, como fontes, cores e estilo. Podemos dizer que o CSS é um complemento ao HTML. Se seu site ou aplicativo fosse uma casa, o HTML seria responsável por subir as paredes e o CSS por pintá-las e decorá-las. O CSS também acrescenta novas possibilidades ao código. </p>
+            </article>
+            <article>
+                <h3>JAVASCRIPT</h3>
+                <p>Esta linguagem de programação é responsável por comandos e comportamentos que melhoram a usabilidade de um site, deixando-o mais dinâmico e afetando positivamente a experiência do usuário.</p>
+            </article>
+        </section>
+        <section class="tema" id="tema6">
+            <h2>Linguagens Back-End</h2>
+            <article>
+                <p>Back End, como o próprio nome sugere, vem da ideia do que tem por trás de uma aplicação. Pode ficar meio abstrato em um primeiro momento, mas pense que para conseguir usar o Facebook no dia a dia, os dados do seu perfil, amigos e publicações precisam estar salvos em algum lugar, sendo esse lugar um banco de dados e processados a partir de lá.</p>
+                <div id="back-img">
+                    <img src="./imgs/backend-image.jpg" alt="" width="350px">
+                    <img src="./imgs/linguagens.jpg" alt="" width="300px" height="240px">
+                </div>
+            </article>
+            <article>
+                <h3>JAVASCRIPT</h3>
+                <p>JavaScript não é mais apenas uma linguagem de script do lado do cliente, porque tecnologias como Node.Js permitem que você execute operações do lado do servidor. O Node.js depende das estruturas do lado do servidor chamadas Express.js para criar uma plataforma que permite aos desenvolvedores escrever códigos que são executados no servidor.</p>
+            </article>
+            <article>
+                <h3>PYTHON</h3>
+                <p>Desde que o Python foi criado em 1991 por Guido van Rossum, ele cresceu e se tornou uma das linguagens de programação multifuncionais líderes no mundo hoje. Os desenvolvedores de back-end utilizam seus códigos organizados e altamente legíveis para criar scripts funcionais para lidar com atribuições de back-end.</p>
+            </article>
+            <article>
+                <h3>PHP</h3>
+                <p>PHP foi desenvolvido por Rasmus Lerdorf em 1994; desde então, o PHP evoluiu para uma das principais linguagens de programação do lado do servidor hoje.PHP é uma linguagem de programação multifuncional fácil de usar. Funciona perfeitamente com uma ampla variedade de bancos de dados e sistemas operacionais. Estruturas modernas, uma base de código enorme e a comunidade PHP ativa são fatores que impulsionam a evolução contínua do PHP.</p>
+            </article>
+        </section>
+        <section class="tema" id="tema7">
+            <h2>Folhas de Estilo</h2>
+            <article>
+                <p>As folhas de estilos em cascata (CSS) são uma linguagem de estilos que, assim como o HTML, também não é considerada uma linguagem de programação. Ela é responsável por separar a parte estrutural da aplicação (que ficará nas mãos do HTML) da parte estética.</p>
+                <div id="css-img">
+                    <img src="./imgs/memes.gif" alt="" width="450px" height="300px">
+                    <img src="./imgs/html-css.jpg" alt="" width="290px">
+                </div>
+            </article>
+        </section>
+        <section class="tema" id="tema8">
+            <h2>Frameworks</h2>
+            <article>
+                <p>Os frameworks se tornaram uma parte essencial do desenvolvimento web, já que os padrões dos aplicativos da web estão sempre aumentando, assim como a complexidade da tecnologia necessária. É completamente irracional reinventar a roda para tecnologias tão complexas, supondo que você possa reinventar tudo isso.</p>
+                <div id="framework-img">
+                    <img src="./imgs/frameworks.webp" alt="" width="300px">
+                    <img src="./imgs/triade-frameworks.png.opdownload" alt="" width="500px">
+                </div>
+            </article>
+            <article>
+                <h3 class="titulo">Frameworks de back-end</h3>
+                <article>
+                    <h4>Express</h4>
+                    <p>Graças à popularidade exorbitante do Node.js, o Express está rapidamente se tornando um dos frameworks mais populares atualmente. O Express se orgulha de estruturas mínimas, rápidas e não postuladas. Ele fornece algumas funcionalidades básicas do framework sem obscurecer os recursos do Node e aproveita o poderoso desempenho do Node.js assíncrono.</p>
+                </article>
+                <article>
+                    <h4>Django</h4>
+                    <p>Django é uma estrutura Model-View-Template que usa Python para desenvolvimento web. É usado por alguns dos grandes nomes como Google, Youtube e Instagram. O Django possui seu recurso incluído em baterias, que é o conjunto de recursos, como autenticação e mensagens, que o Django vem junto.</p>
+                </article>
+                <article>
+                    <h4>Laravel</h4>
+                    <p>O Laravel é um framework Model-View-Controller que usa PHP, que é uma das linguagens mais famosas da web. É relativamente jovem em comparação com outras estruturas nesta lista. O Laravel vem com suporte a API pronto para uso e também possui uma quantidade decente de pacotes que podem estender seu alcance.</p>
+                </article>
+            </article>
+            <article>
+                <h3 class="titulo">Frameworks de Front-End</h3>
+                    <article>
+                        <h4>Angular</h4>
+                        <p>O Angular é uma estrutura de frontend especializada na criação de aplicativos avançados de uma única página. É uma estrutura muito rica capaz de criar aplicativos completos do lado do cliente e há muito o que fazer e aprender em Angular.</p>
+                    </article>
+                    <article>
+                        <h4>React</h4>
+                        <p>React não é uma estrutura, é uma biblioteca de front-end, mas muitos desenvolvedores a consideram uma estrutura e geralmente é comparada nesse contexto. React foi o primeiro a adotar a arquitetura baseada em componentes que o Angular e o Vue e muitos outros frameworks começaram a adotar posteriormente. O domínio virtual do React torna a manipulação muito mais rápida e é muito fácil de aprender, especialmente graças à sua sintaxe de JSX. </p>
+                    </article>
+                    <article>
+                        <h4>Vue</h4>
+                        <p>O Vue.js é a nova estrela em ascensão, começou como um projeto individual e rapidamente se transformou em um dos frameworks JS mais populares do mercado. Há muitas coisas legais sobre o Vue. Primeiro, ele é um framework progressivo, o que significa que se você tem um projeto existente, você pode adotar o Vue para uma parte do projeto e tudo funciona muito bem.</p>
+                    </article>
+            </article>
+        </section>
+    </main>
+    <footer class="rodape"><p>Feito por Guilherme Guia</p></footer>
+
+</body>
+
+</html>

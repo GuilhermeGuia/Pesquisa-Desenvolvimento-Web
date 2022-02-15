@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4e4397;
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Navegação */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.img{
+    background-color:#362d7e;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s;
+}
+.img:hover{
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+
+.cabecalho-menu{
+    display: flex;
+    gap: 10px;
+}
+.cabecalho-item{
+    color: white ;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cabecalho-item{
+    background-color: #362d7e;
+    transition: transform .3s;
+}
+
+.cabecalho-item:hover{
+    background-color: #9783e0;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+/* MAIN */
+.linha{
+    margin-top: 15px;
+    border-top: 0.3px solid #a0a0a0;
+}
+.conteudo{
+    background-color: #f5f5f5;
+    margin: auto;
+    padding: 30px;
+    width: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tema p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#rede-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+#web-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sides-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#estrutura-web-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#triade-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+#back-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#css-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#framework-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* FOOTER */
+.titulo{
+    padding-bottom: 30px;
+}
+h4{
+    font-size: 20px;
+}
+.rodape{
+    border-top: 0.3px solid #a0a0a0;
+    padding: 20px;
+    background-color: #362d7e;
+    color: white;
+    text-align: center;
+}
